@@ -10,7 +10,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 ## Integrantes
 
-* Nome completo do aluno 1
+* Gabriel Maximino Rascão Pereira
 * Karen Franco Alavarque Escobedo
 * Pedro Vitor Rodrigues da Silva
 * Nome completo do aluno 4
