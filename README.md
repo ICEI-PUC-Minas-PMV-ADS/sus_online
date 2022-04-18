@@ -12,6 +12,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 
 * Gabriel Maximino Rascão Pereira
 * Karen Franco Alavarque Escobedo
+* Luiz Carlos Gil de Souza
 * Pedro Vitor Rodrigues da Silva
 * Nome completo do aluno 4
 
