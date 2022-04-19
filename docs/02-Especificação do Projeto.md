@@ -16,7 +16,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 |Isaura Nunes| ![alt text](/docs/img/isaura_nunes.png) |
 |-----------------------|-|
 |Idade:|68|
-|Ocupação:|  Dona de casa, aposentada. Criou seus 2 filhos e agora curte seus netos e seu jardim. |
+|Ocupação:|  Dona de casa, aposentada. Criou seus 2 filhos e agora curte seus netos. |
 |Aplicativos:| WhatsApp, Facebook|
 |Motivações | Não precisar ir até o posto de saúde local para agendar exames; |
 |Frustrações | Ter que fechar sua banca na feira sempre que precisa ir ao Posto de Saúde. |
