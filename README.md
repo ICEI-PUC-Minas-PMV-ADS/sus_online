@@ -1,24 +1,25 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End - Turma 10`
 
-`SEMESTRE`
+`1º SEMESTRE DE 2022`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Website em desenvolvimento para propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde.
 
 ## Integrantes
 
 * Gabriel Maximino Rascão Pereira
+* José Vicente do Vale Melo
 * Karen Franco Alavarque Escobedo
 * Luiz Carlos Gil de Souza
 * Pedro Vitor Rodrigues da Silva
-* Nome completo do aluno 4
+* Ursula Daniela Figueiredo Barbosa
 
 ## Orientador
 
-* Nome completo do professor 1
+* Daniela Carvalho Monteiro Ferreira
 
 ## Instruções de utilização
 
