@@ -10,7 +10,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 |Ocupação:|  Operador do sistema de marcação de consultas do SUS |
 |Aplicativos:| WhatsApp, Facebook|
 |Motivações | Gosta do seu trabalho, pois percebe potencial para ajudar outras pessoas; |
-|Frustrações | Perde muito tempo tendo que fazer atividades que poderiam ser realizados pelos próprios usuários do sistema |
+|Frustrações | Deficiências no ambiente de trabalho o impedem de melhorar seu atendimento |
 |Hobbies | Estudar assuntos fora do seu perfil profissional |
 
 |Isaura Nunes| ![alt text](/docs/img/isaura_nunes.png) |
