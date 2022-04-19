@@ -1,3 +1,5 @@
+![alt text](docs/img/sus_online.jpg)
+
 # SUS ONLINE
 
 `TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS`
@@ -6,7 +8,7 @@
 
 `1º SEMESTRE DE 2022`
 
-Website em desenvolvimento afim de propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde.
+Website em desenvolvimento a fim de propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde.
 
 ## Integrantes
 

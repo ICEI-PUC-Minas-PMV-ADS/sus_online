@@ -1,46 +1,45 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+De acordo com dados divulgados pelo IBGE (2020), por intermédio de pesquisas realizadas pela Pesquisa Nacional de Saúde, mais de 150 milhões de brasileiros dependem exclusivamente do Sistema Único de Saúde (SUS) para tratamentos médicos e odontológicos. Desta forma o SUS é a principal via de acesso à medicina para grande parte dos cidadãos que não possuem qualquer tipo de plano de saúde suplementar. Logo, nota-se a importância de iniciativas que promovam soluções de telemedicina a fim de contribuir com o alcance e agilidade no atendimento para que o maior número de pacientes possa se beneficiar de tal recurso.
+
+Além dos benefícios descritos, a telemedicina contribui para o isolamento social em contexto de pandemia como ocorrido em 2020 devido a propagação do vírus da covid-19, tal ocorrência acarretou a aprovação da Lei nº 13.989 e atualmente regulamenta a telemedicina no Brasil, a medida adotada evita o esgotamento de serviços presenciais de saúde e a proliferação da doença.
+
+A praticidade do modo híbrido tende a continuar presente em nossa rotina, e alinhar o SUS aos avanços da saúde digital, será fundamental para modernizar e aperfeiçoar um sistema que, conforme a Secretaria do Estado de Saúde (2015), é referência mundial em saúde pública. No futuro, com a melhora da tecnologia de comunicação e a diminuição do custo dos equipamentos, acreditamos que a telemedicina se tornará parte do cotidiano dos serviços de saúde em nosso país.” (SOIREFMANN et.al, 2008, p.118).
+
+Por fim, destaca-se o quão importante tem sido a telemedicina, principalmente em cenários de crise, em que a ferramenta tecnológica se faz presente, atuante e necessária para o atendimento de milhões de brasileiros que dependem do sistema público de saúde e assistência médica de forma acessível, ágil e efetiva.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+- Deslocamento de habitantes de áreas rurais e/ou que residem afastados de centros urbanos e hospitalares;
 
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
+- Pacientes com mobilidade reduzida e/ou locomoção inviável;
 
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+- Acessibilidade restrita;
+
+- Demora, atrasos e dificuldade nas entregas e/ou realização de exames/consultas;
+
+- Risco de contaminação devido a demanda nas filas de espera.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Desenvolvimento de WebSite a fim de propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde, a fim de reduzir o tempo de espera em filas, risco de contaminação de doenças transmissíveis pelo ar, prover acesso ao sistema de saúde a populações rurais e remotas, bem como a disponibilização de horários para pessoas com mobilidade reduzida.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Reduzir o tempo de espera para atendimento;
+
+- Reduzir o fluxo de pessoas que se dirigem aos postos de saúde para agendar consultas;
+
+- Agilizar as entregas ou realização de exames/consultas;
+
+- Estabelecer comunicação entre os profissionais de saúde e pacientes;
+
+- Equilibrar o número de pessoas atendidas diariamente conforme a demanda apresentada.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Em 2019 o Instituto Brasileiro de Geografia (IBGE), divulgou o resultado da Pesquisa Nacional da Saúde (PNS) em convênio com o Ministério da Saúde, no qual demonstra que grande parte da população brasileira depende do sistema público de saúde, o que ocasiona sobrecarga nos atendimentos e superlotação nos postos e hospitais. Os motivos de procura de atendimento mais citados foram: "[...] doença ou tratamento de doença (48,2%) e cuidados de rotina, tais como: vacinação, prevenção, check-up médico ou acompanhamento com outro profissional de saúde (25,1%)." (PNS, 2019, p. 46).
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Pensando em otimizar os processos e elevar a qualidade dos atendimentos médicos com o uso da tecnologia, a telemedicina, em que disponibiliza informações mais detalhadas com os problemas de cada paciente, torna as consultas com os profissionais de saúde mais práticas, ágeis e flexíveis, bem como diminui o tempo de espera e o contato entre os indivíduos, a fim de reduzir os níveis de contaminação por doenças transmissíveis mantendo os cidadãos em segurança.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+Esta solução tem como público alvo pacientes que utilizam os serviços prestados pelo Sistema Único de Saúde (SUS).
