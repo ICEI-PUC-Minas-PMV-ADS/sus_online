@@ -4,7 +4,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 
 ## Personas
 
-|Marcos Souza| ![alt text](/docs/img/marcos_souza.png) |
+|Marcos Souza| ![alt text](/docs/img/Personas/marcos_souza.png) |
 |-----------------------|-|
 |Idade:|32|
 |Ocupação:|  Operador do sistema de marcação de consultas do SUS |
@@ -13,7 +13,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 |Frustrações | Deficiências no ambiente de trabalho o impedem de melhorar seu atendimento |
 |Hobbies | Estudar assuntos fora do seu perfil profissional |
 
-|Isaura Nunes| ![alt text](/docs/img/isaura_nunes.png) |
+|Isaura Nunes| ![alt text](/docs/img/Personas/isaura_nunes.png) |
 |-----------------------|-|
 |Idade:|68|
 |Ocupação:|  Dona de casa, aposentada. Criou seus 2 filhos e agora curte seus netos. |
@@ -22,7 +22,7 @@ A definição do problema foi consolidada com a participação dos usuários por
 |Frustrações | Ter que fechar sua banca na feira sempre que precisa ir ao Posto de Saúde. |
 |Hobbies | Cuidar de seus pássaros. |
 
-|Silvia Chagas| ![alt text](/docs/img/silvia_chagas.png) |
+|Silvia Chagas| ![alt text](/docs/img/Personas/silvia_chagas.png) |
 |-----------------------|-|
 |Idade:|42|
 |Ocupação:|  Médica do SUS atende em dois postos diferentes, pela manhã e à tarde. |
