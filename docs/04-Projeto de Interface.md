@@ -8,7 +8,7 @@ Dentre as preocupações para a montagem da interface do sistema, estamos estabe
 O diagrama apresentado na Figura 9 mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o <a href="https://app.mockplus.com/app/rwcs6lNwjzZ/specs/design/06MMndz_Yn_?hmsr=share">Ambiente Mockplus do Projeto</a>
 
 ![alt text](/docs/img/projeto-interface/fluxograma.png)
-##### Figura 9 - Fluxo de telas do usuário 
+##### *Figura 9 - Fluxo de telas do usuário* 
 
 Observação: Na tela de login, inserimos o link de acesso para cada usuário, porém a diferenciação de acesso será por meio do CPF e registro realizado CNS (Paciente), CRM (Médico), COREN (Profissional da saúde). 
 
@@ -22,11 +22,11 @@ Conforme fluxo de telas do projeto apresentado no item anterior, as telas do sis
 - Rodapé - Contém informações sobre o autor da seção de dados, direitos autorais ou links para documentos relacionados. 
 
 ![alt text](/docs/img/projeto-interface/1-estrutura-site.png)
-##### Figura 10 - Estrutura padrão do site
+##### *Figura 10 - Estrutura padrão do site*
 
 - **Tela de login** 
 
-Efetuar a autenticação do usuário através do preenchimento dos campos CPF e senha. Caso seja o primeiro acesso, o usuário deverá realizar o cadastro por meio do link “cadastre-se como paciente” ou “cadastre-se com profissional da saúde”. Caso o usuário precise redefinir senha, ele pode acessar o link “recuperar senha”
+Efetuar a autenticação do usuário através do preenchimento dos campos CPF e senha. Caso seja o primeiro acesso, o usuário deverá realizar o cadastro por meio do link “*cadastre-se como paciente*” ou “*cadastre-se com profissional da saúde*”. Caso o usuário precise redefinir senha, ele pode acessar o link “*recuperar senha*”
 
 ![alt text](/docs/img/projeto-interface/2-login.png)
 
@@ -86,7 +86,7 @@ Após efetuar o login como profissional da saúde, o usuário é direcionado par
 
 - **Tela médico dados cadastrais**
 
-aso o usuário seja um profissional da saúde e deseja se cadastrar, após ele clicar no link “*cadastre-se como profissional da saúde*” na tela de login, ele será direcionado para tela de cadastro que solicitará os seguintes dados: nome completo, CPF, RG, data de nascimento, CRM ou COREN, nome da mãe, endereço, CEP, número, complemento, telefone, e-mail, senha e confirmação de senha para efetivar o cadastramento. Posteriormente, os usuários podem alterar seus dados, bem como a senha de acesso no menu. Na sequência, a tela é fechada voltando para a tela de login. 
+Caso o usuário seja um profissional da saúde e deseja se cadastrar, após ele clicar no link “*cadastre-se como profissional da saúde*” na tela de login, ele será direcionado para tela de cadastro que solicitará os seguintes dados: nome completo, CPF, RG, data de nascimento, CRM ou COREN, nome da mãe, endereço, CEP, número, complemento, telefone, e-mail, senha e confirmação de senha para efetivar o cadastramento. Posteriormente, os usuários podem alterar seus dados, bem como a senha de acesso no menu. Na sequência, a tela é fechada voltando para a tela de login. 
 
 ![alt text](/docs/img/projeto-interface/5-cadastro-profissional.png)
 
