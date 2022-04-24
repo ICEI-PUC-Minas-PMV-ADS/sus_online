@@ -23,7 +23,7 @@ A solução implementada conta com os seguintes módulos:
 
 - Linguagens utlizadas para desenvolver o projeto: HTML, CSS, JavaScript
 - IDEs de desenvolvimento: Visual Studio Code
-- Plataforma para hospedagem do site: GitHub Pages
+- Plataforma para hospedagem do site: Heroku
 - Plataforma para hospedagem dos arquivos: GitHub
 - Ferramenta de versionamento: Git
 - Ferramenta para a criação de logo e imagens: Canva
