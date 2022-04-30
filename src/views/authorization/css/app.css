@@ -1,0 +1,24 @@
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #3FBAD8;
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(270deg, #3FBAD8 1.77%, #000000 96.67%)
+}
+
+.input_field,
+.select-field {
+    background: rgba(175, 232, 240, 0.7) !important;
+}
+
+.nav-link {
+    cursor: pointer;
+}
+
+ul li a.active {
+    border-bottom: 2px solid #494f57 !important;
+}
+
+.card-custom {
+    border-radius: 1rem !important;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Desenvolvimento de Aplicação Web a fim de propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde",
+  "main": "index.html",
+  "contributors": [
+    {
+      "name": "Gabriel Maximino Rascão Pereira",
+      "url": "https://github.com/Gmaxpereira"
+    },
+    {
+      "name": "José Vicente do Vale Melo",
+      "url": "https://github.com/Jvicentemelo"
+    },
+    {
+      "name": "Karen Franco Alavarque Escobedo",
+      "url": "https://github.com/Karenfranco23"
+    },
+    {
+      "name": "Luiz Carlos Gil de Souza",
+      "url": "https://github.com/Luiiz-Souza"
+    },
+    {
+      "name": "Pedro Vitor Rodrigues da Silva",
+      "url": "https://github.com/pedrovitorrs"
+    },
+    {
+      "name": "Ursula Daniela Figueiredo Barbosa",
+      "url": "https://github.com/Ursula01"
+    }
+  ]
+}
