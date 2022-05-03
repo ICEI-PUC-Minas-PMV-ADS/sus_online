@@ -1,6 +1,8 @@
+import { BaseController } from "./Base/BaseController";
+
 var APPOINTMENTS = []
 
-export default class userController {
+export default class userController extends BaseController {
     static Save(payload) {
         payload["Id"] = 1;
         // TODO: CRIAR FUNÇÃO PARA GERAR ID'S DE MANEIRA AUTOMATICA

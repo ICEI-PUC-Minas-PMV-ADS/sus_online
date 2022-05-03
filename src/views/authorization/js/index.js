@@ -1,4 +1,4 @@
-import userController from '/src/controllers/userController.js'
+import { userController } from '/src/controllers/userController.js'
 
 /*
     Ocorre antes que o formulário seja exibido pela primeira vez.
@@ -57,14 +57,16 @@ function componenteInput_TextChanged() {
 */
 function componenteBotaoLogin_Click() {
     var userLogin = new Object();
+    var controller = new userController();
     // TODO: ADICIONAR VALIDACAO PARA OS CAMPOS
 
     $('.login-model').each(function () {
         userLogin[$(this).attr('type')] = $(this).val();
     });
 
-    var userExists = userController.findByEmailAndPassword(userLogin);
-    console.log(userExists);
+    var userExists = controller.findByEmailAndPassword(userLogin);
+
+    window.location.href = `/src/views/home/${userExists.role}/index.html`;
 }
 
 /*
@@ -72,6 +74,7 @@ function componenteBotaoLogin_Click() {
 */
 function componenteBotaoRegister_Click() {
     var userCreate = new Object();
+    var controller = new userController();
     // TODO: ADICIONAR VALIDACAO PARA OS CAMPOS
 
     $('.register-model').each(function () {
@@ -79,8 +82,8 @@ function componenteBotaoRegister_Click() {
         userCreate[$(this).attr('model-type')] = $(this).val();
     });
 
-    userCreate["role"] = $('select[name=selector] option').filter(':selected').val()
+    userCreate.role = $('select[name=selector] option').filter(':selected').val()
 
-    userController.Save(userCreate);
+    controller.Save(userCreate);
     console.log(userCreate);
 }

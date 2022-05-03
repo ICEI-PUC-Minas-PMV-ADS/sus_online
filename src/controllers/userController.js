@@ -1,33 +1,45 @@
-var USERS = []
+import { uuidIdentifierGenerator } from "../helpers/uuidIdentifierGenerator.js";
+import { BaseController } from "./base/baseController.js";
 
-export default class userController {
-    static Save(payload) {
-        payload["Id"] = 1;
-        // TODO: CRIAR FUNÇÃO PARA GERAR ID'S DE MANEIRA AUTOMATICA
-        USERS.push(payload);
+export class userController extends BaseController {
+
+    constructor() {
+        super("db_user");
+    }
+
+    Save(payload) {
+        this.initQuery();
+        payload.Id = uuidIdentifierGenerator.generate();
+        this.itemCollection.push(payload);
+        this.Commit();
     };
 
-    static FindById(id) {
-        return USERS.find(element => element.Id == id);
+    FindById(id) {
+        this.initQuery();
+        return this.itemCollection.find(element => element.Id == id);
     };
 
-    static findByEmailAndPassword(payload) {
-        return USERS.find(element => element.Email == payload.Email
+    findByEmailAndPassword(payload) {
+        this.initQuery();
+        return this.itemCollection.find(element => element.Email == payload.Email
             && element.Password == payload.Password);
     };
 
-    static FindAll() {
-        return USERS;
+    FindAll() {
+        this.initQuery();
+        return this.itemCollection;
     };
 
-    static UpdateById(payload) {
-        var positionUser = USERS.findIndex(user => user.Id == payload.Id)
+    UpdateById(payload) {
+        this.initQuery();
+        var positionUser = this.itemCollection.findIndex(user => user.Id == payload.Id)
         // TODO: VERIFICAR SE A POSIÇÃO RETORNADA FOI MAIOR DO QUE 0
-        USERS[positionUser] = payload;
+        this.itemCollection[positionUser] = payload;
+        this.Commit();
     };
 
-    static SoftDelete(payload) {
-        payload["active"] = false;
+    SoftDelete(payload) {
+        payload.active = false;
         UpdateById(payload);
     };
 }
