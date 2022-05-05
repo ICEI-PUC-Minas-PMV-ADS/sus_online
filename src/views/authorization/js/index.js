@@ -1,4 +1,4 @@
-import { userController } from './controllers/userController.js'
+import { userController } from '../../../controllers/userController.js'
 
 /*
     Ocorre antes que o formulário seja exibido pela primeira vez.
