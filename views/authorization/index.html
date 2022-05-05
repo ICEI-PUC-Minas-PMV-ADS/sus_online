@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SUS Online</title>
+    <link rel="stylesheet" type="text/css" href="/src/assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="/src/views/authorization/css/app.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet"
+        href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+</head>
+
+<body class="gradient-custom">
+    <main class="container itens_align">
+        <section class="vh-100">
+            <div class="container py-5 h-100">
+                <div class="row d-flex justify-content-center align-items-center h-100">
+                    <div class="col-12 col-md-8 col-lg-5 col-xl-4">
+                        <div class="card bg-white text-dark card-custom">
+                            <div class="card-body p-5 text-center">
+
+                                <div class="mb-md-1 mt-md-1 pb-1">
+
+                                    <div class="row mb-4">
+                                        <img src="/src/assets/img/sus_online.svg" class="img-fluid" alt="SUS Online" />
+                                    </div>
+
+                                    <ul class="nav nav-tabs mb-3 justify-content-center" id="ex1" role="tablist">
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark hover-overlay ripple login-custom"
+                                                id="ex1-tab-2" data-mdb-toggle="tab" role="tab"
+                                                aria-controls="ex1-tabs-2">Login</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                            <a class="nav-link text-dark hover-overlay ripple register-custom"
+                                                id="ex1-tab-1" data-mdb-toggle="tab" role="tab"
+                                                aria-controls="ex1-tabs-1" aria-selected="false">Register</a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="register">
+                                        <div class="form-outline form-dark mb-4 input_field">
+                                            <input type="text"
+                                                class="form-control form-control-lg input-custom register-model"
+                                                model-type="user" />
+                                            <label class="form-label">Usuário</label>
+                                        </div>
+
+                                        <select name="selector" id="selector"
+                                            class="form-control form-control-lg mb-4 browser-default custom-select select-field">
+                                            <option selected value="paciente">Paciente</option>
+                                            <option value="medico">Medico</option>
+                                        </select>
+
+                                        <div class="form-outline form-dark mb-4 input_field">
+                                            <input type="email"
+                                                class="form-control form-control-lg input-custom register-model"
+                                                model-type="email" />
+                                            <label class="form-label">Email</label>
+                                        </div>
+
+                                        <div class="form-outline form-dark mb-4 input_field">
+                                            <input type="password"
+                                                class="form-control form-control-lg input-custom register-model"
+                                                model-type="password" />
+                                            <label class="form-label">Senha</label>
+                                        </div>
+
+                                        <button class="btn btn-outline-light btn-lg px-5 bg-dark" id="botao-register"
+                                            type="submit">Cadastrar</button>
+                                    </div>
+
+                                    <div class="login">
+                                        <div class="form-outline form-dark mb-4 input_field">
+                                            <input type="email"
+                                                class="form-control form-control-lg input-custom login-model register-model"
+                                                model-type="email" />
+                                            <label class="form-label">Email</label>
+                                        </div>
+
+                                        <div class="form-outline form-dark mb-4 input_field">
+                                            <input type="password"
+                                                class="form-control form-control-lg input-custom login-model"
+                                                model-type="password" />
+                                            <label class="form-label">Senha</label>
+                                        </div>
+
+                                        <p class="small mb-4 pb-lg-2">
+                                            <a class="text-dark" href="#!">
+                                                Forgot password?
+                                            </a>
+                                        </p>
+
+                                        <button class="btn btn-outline-light btn-lg px-5 bg-dark" id="botao-login"
+                                            type="submit">Entrar</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script src="/src/assets/js/jquery.js" type="text/javascript"></script>
+<script src="/src/views/authorization/js/index.js" type="module"></script>
+
+</html>
