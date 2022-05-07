@@ -9,16 +9,22 @@
 .input_field,
 .select-field {
     background: rgba(175, 232, 240, 0.7) !important;
+    border: 0px !important;
+    border-radius: 0% !important;
 }
 
 .nav-link {
     cursor: pointer;
 }
 
+.card-custom {
+    border-radius: 1rem !important;
+}
+
 ul li a.active {
     border-bottom: 2px solid #494f57 !important;
 }
 
-.card-custom {
-    border-radius: 1rem !important;
+ul li a:hover {
+    background-color: #eee;
 }

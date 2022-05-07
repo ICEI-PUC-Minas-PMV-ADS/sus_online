@@ -1,45 +1,47 @@
 import { uuidIdentifierGenerator } from "../helpers/uuidIdentifierGenerator.js";
-import { BaseController } from "./base/baseController.js";
+import { BaseController } from "./base/BaseController.js";
 
-export class userController extends BaseController {
+export class UserController extends BaseController {
 
     constructor() {
-        super("db_user");
+        super("_user");
     }
 
-    Save(payload) {
+    save(payload) {
         this.initQuery();
-        payload.Id = uuidIdentifierGenerator.generate();
+        payload.id = uuidIdentifierGenerator.generate();
         this.itemCollection.push(payload);
-        this.Commit();
+        this.commit();
     };
 
-    FindById(id) {
+    findById(id) {
         this.initQuery();
-        return this.itemCollection.find(element => element.Id == id);
+        return this.itemCollection.find(element => element.id == id);
     };
 
     findByEmailAndPassword(payload) {
         this.initQuery();
-        return this.itemCollection.find(element => element.Email == payload.Email
-            && element.Password == payload.Password);
+        return this.itemCollection.find(element =>
+            element.email == payload.email
+            && element.password == payload.password
+        );
     };
 
-    FindAll() {
+    findAll() {
         this.initQuery();
         return this.itemCollection;
     };
 
-    UpdateById(payload) {
+    updateById(payload) {
         this.initQuery();
-        var positionUser = this.itemCollection.findIndex(user => user.Id == payload.Id)
+        var positionUser = this.itemCollection.findIndex(user => user.id == payload.id)
         // TODO: VERIFICAR SE A POSIÇÃO RETORNADA FOI MAIOR DO QUE 0
         this.itemCollection[positionUser] = payload;
-        this.Commit();
+        this.commit();
     };
 
-    SoftDelete(payload) {
+    softDelete(payload) {
         payload.active = false;
-        UpdateById(payload);
+        updateById(payload);
     };
 }
