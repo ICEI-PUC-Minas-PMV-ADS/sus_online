@@ -18,7 +18,7 @@ export class BaseController {
         return this.itemCollection;
     }
 
-    Commit() {
+    commit() {
         localStorage.setItem(this._databasename, JSON.stringify(this.itemCollection));
     }
 }
