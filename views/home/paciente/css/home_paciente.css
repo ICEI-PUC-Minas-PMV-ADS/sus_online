@@ -1,23 +1,13 @@
 .alertas {
-    margin: 150px;  
+    margin: 150px;
+    
 }
 
-.alert-warning {
+.alert-azul {
+    justify-content: center !important;
     background-color: #3FBAD8 !important;
     color: white !important;
-    justify-content: center !important;
-  
-}
-
-.alert-danger {
-    background-color: #3FBAD8 !important;
-    color: white !important;
-    justify-content: center !important;
-
-}
-
-
-.text-exam-alert-custom {
     display: flex;
-    justify-content: center;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
 }
