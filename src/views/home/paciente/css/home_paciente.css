@@ -1,0 +1,17 @@
+.alertas {
+    margin: 150px;  
+}
+
+.alert-warning {
+    background-color: #3FBAD8 !important;
+    color: white !important;
+    justify-content: center !important;
+  
+}
+
+.alert-danger {
+    background-color: #3FBAD8 !important;
+    color: white !important;
+    justify-content: center !important;
+
+}
