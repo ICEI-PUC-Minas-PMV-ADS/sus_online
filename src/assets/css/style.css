@@ -162,9 +162,16 @@ body {
     color: #000;
 }
 
+.appointments .material-icons {
+    position: relative;
+    top: -3px;
+    vertical-align:middle;
+    color: #000;
+}
+
 .name {
     position: relative;
-    top: 30px;
+    top: 25px;
     left: 25px;
     
 }
@@ -185,7 +192,7 @@ body {
     position: relative;
     width: 170px;
     height: 35px;
-    top: px;
+    top: 6px;
     left: 170px;
     border-radius: 5px;
     font-family: 'Inter', sans-serif;
@@ -195,7 +202,11 @@ body {
 .button .button {
     background-color: #8A8982;
     border: none;
+    
 }
+
+
+
 .title {
     position: absolute;
     width: 300px;
@@ -213,7 +224,7 @@ body {
     width: 1400px;
     height: 0px;
     left: 55px;
-    top: 100px;
+    top: 103px;
     border: 2px solid #3FBAD8;
 }
 
