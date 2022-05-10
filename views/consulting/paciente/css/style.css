@@ -1,3 +1,4 @@
+
 html {
     height: 100%;
 }
@@ -5,12 +6,13 @@ html {
 body {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .flexbox-container {
     background-color: rgba(255, 255, 255, 0.911);
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
 }
 
@@ -147,6 +149,64 @@ body {
     border-radius: 10px;
 }
 
+.appointments {
+    position: absolute;
+    width: 535px;
+    height: 145px;
+    left: 55px;
+    top: 150px;
+    background:  #e5e5e5;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.appointments .material-icons {
+    position: relative;
+    top: -3px;
+    vertical-align:middle;
+    color: #000;
+}
+
+.name {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    
+}
+
+.date {
+    position: relative;
+    left: 200px;
+    
+}
+
+.hour {
+    position: relative;
+    left: 200px;
+    
+}
+
+.button {
+    position: relative;
+    width: 170px;
+    height: 35px;
+    top: 6px;
+    left: 170px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.button .button {
+    background-color: #8A8982;
+    border: none;
+    
+}
+
+
+
 .title {
     position: absolute;
     width: 300px;
@@ -161,10 +221,10 @@ body {
 
 .line-2 {
     position: absolute;
-    width: 1050px;
+    width: 1400px;
     height: 0px;
-    left: 220px;
-    top: 100px;
+    left: 55px;
+    top: 103px;
     border: 2px solid #3FBAD8;
 }
 
@@ -173,3 +233,4 @@ footer {
     font-weight: bold;
     color: #ffffff;
 }
+
