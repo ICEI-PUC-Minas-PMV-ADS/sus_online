@@ -31,4 +31,5 @@ A solução implementada conta com os seguintes módulos:
 
 ## Hospedagem
 
-Utilizamos a plataforma Heroku como ambiente de hospedagem do site do projeto.
+Utilizamos a plataforma GitHub Pages como ambiente de hospedagem do site do projeto. A publicação é feita através de comandos via git para o repositório que se encontra no endereço: 
+<a href="https://icei-puc-minas-pmv-ads.github.io/sus_online/">SUS Online</a>
