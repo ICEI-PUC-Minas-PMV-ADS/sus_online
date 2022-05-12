@@ -72,5 +72,4 @@ function componenteBotaoRegister_Click() {
     userCreate.role = $('select[name=selector] option').filter(':selected').val()
 
     controller.save(userCreate);
-    console.log(userCreate);
 }
