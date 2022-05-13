@@ -1,0 +1,183 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.sidenav {
+    width: 290px; 
+    height: 100%;
+    border-right: 3px solid #3FBAD8;
+}
+.logo-container {
+    height: 100px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logo {
+    width: 100%;
+}
+.divider {
+    height: 2px;
+    background-color: #3FBAD8;
+    margin: 17px 15px;
+}
+.menu {
+    width: 100%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.menu-link {
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    color: #3FBAD8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu-text {
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    
+}
+.page {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.navebar {
+    height: 50px;
+    background-color: #3FBAD8;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.content {
+    height: 100%;
+    background-color: #F0F9FC;
+    padding: 10px;
+    overflow: hidden;
+}
+.footer {
+    height: 40px;
+    background-color: #3FBAD8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.footer-text {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+}
+.user {
+   height: 40px;
+}
+.nav-usuario {
+    color: #F0F9FC;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.icon-menu {
+    color: #F0F9FC;
+    margin-right: 11px;
+    font-size: 30px !important;
+}
+.panel {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 8px;
+} 
+.campo-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.radio-label {
+    font-family: 'Manrope', sans-serif !important;
+    font-size: 19px;
+}
+.header-text {
+    margin: 8px 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #3FBAD8;
+
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.data {
+    display: flex;
+}
+.hora {
+    font-family: 'Manrope', sans-serif;
+    font-size: 19px;
+}
+.botoes-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+.botao-agendar {
+    margin-right: 65px;
+    font-family: inherit;
+}
+.botao-cancelar {
+    margin-right: 180px;
+    font-family: 'Manrope', sans-serif;
+}
+.tabela-de-agendamentos {
+    padding: 5px;
+    margin-top: 20px;
+    overflow-y: auto;
+    max-height: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.agendamento {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid #3FBAD8; 
+    border-radius: 40px;
+    padding: 10px 63px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.agendamentos-realizados {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.header-text2 {
+    margin-top: 50px;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    color: #3FBAD8;
+}
+.reagendar {
+    margin-right: 10px;
+}
+.agendamento-texto {
+    font-family: 'Manrope', sans-serif;
+    font-size: 17px;
+}
