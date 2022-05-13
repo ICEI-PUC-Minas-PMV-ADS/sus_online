@@ -47,6 +47,24 @@ btn.addEventListener("click", function (fullForm) {
     const PhotoUrl = document.querySelector("#photoUrl");
     const valuePhotoUrl = PhotoUrl.value;
 
-    console.log(valueName, valueCPF, valueRG, valueDtNasc, valueCNS, valueNomeMae, valueEndereco, valueCEP, valueN, valueTel, valueEmail, valueSenha, valueConfSenha, valuePhotoUrl);
+    const print = {
+        Name: valueName,
+        CPF: valueCEP,
+        RG: valueRG,
+        DtNasc: valueDtNasc,
+        CNS: valueCNS,
+        NomeMae: valueNomeMae,
+        Endereco: valueEndereco,
+        CEP: valueCEP,
+        N: valueN,
+        Tel: valueTel,
+        Email: valueEmail,
+        Senha: valueSenha,
+        ConfSenha: valueConfSenha,
+        PhotoUrl: valuePhotoUrl,
+
+    }
+
+    console.log(print);
 
 });
