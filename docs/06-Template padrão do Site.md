@@ -1,9 +1,9 @@
-# Template padrão do site
+# TEMPLATE DO SITE 
 
 O layout padrão do site corresponde ao projeto de interface exposto anteriormente, conforme a Figura 10.
 
 ![alt text](/docs/img/template/layout-padrao.png)
-### *Figura 10 - estrutura padrão do site*
+##### *Figura 10 - estrutura padrão do site*
 
 O template criado está disponível no site GitHub e é composto pelos seguintes layouts:
 
@@ -42,28 +42,34 @@ A responsividade segue o padrão do Bootstrap.
 2. **Tela de recuperação de senha**
 
 3. **Tela de cadastro do paciente**
+
 Detém todos os dados informados pelo usuário, para cadastro e futuras alterações.  
 
 ![alt text](/docs/img/template/cadastro.png)
-### *Figura 13 - tela de cadastro do paciente*
+##### *Figura 13 - tela de cadastro do paciente*
 
 4. **Tela de cadastro do profissional da saúde**
+
 Em construção
 
 5. **Tela home-page do paciente**
+
 Detém todos os acessos necessários em forma de lista na barra lateral para navegação do item desejado.
 
 6. **Tela home-page do médico**
+
 Em construção
 
 7. **Tela home-page do profissional de saúde locado no posto**
+
 Em construção
 
 8. **Tela de agendamento – Paciente**
+
 Tela que permite ao usuário a seleção de agendamento e reagendamento para consulta. 
 
 ![alt text](/docs/img/template/agendamento.png)
-### *Figura 14 - tela de agendamento do paciente*
+##### *Figura 14 - tela de agendamento do paciente*
 
 9. **Tela de consulta – Paciente**
 
@@ -71,15 +77,19 @@ Tela que permite ao usuário a seleção de agendamento e reagendamento para con
 10. **Tela de exames – Paciente**
 
 11. **Tela de atendimentos - Médico**
+
 Em construção
 
 12. **Tela de consulta - Médico**
+
 Em construção
 
 13. **Tela de exames - Médico**
+
 Em construção
 
 14. **Tela de exames, receitas, prescrições e consultas especializadas para o profissional locado nos postos de saúde**
+
 Em construção
 
 
