@@ -4,15 +4,10 @@ Nesta seção são apresentadas as telas desenvolvidas para cada uma das funcion
 
 - **Tela de agendamento – Paciente (RF–07, RF–08, RF–09 e RF–10)**
 
-Tela que permite ao usuário a seleção de agendamento e reagendamento para consulta. A seleção de data e hora são armazenadas no LocalStorage com estruturas dados baseada em JSON. 
+Tela que permite ao usuário selecionar a especialidade médica desejada e através da opção selecionada, o usuário poderá escolher a data e a hora da consulta, que serão armazenados no LocalStorage com estruturas dados baseada em JSON, retornando no campo agendamentos realizados a confirmação da consulta contendo o nome do médico, data e horário.  
 
 ![alt text](/docs/img/template/agendamento.png)
 ##### *Figura 24 - tela de agendamento do paciente*
-
-A tela de agendamento do paciente permite ao usuário selecionar a especialidade médica desejada, através do botão que marcará somente uma opção. Através da opção escolhida, o usuário poderá escolher a data e a hora da consulta, que serão armazenados no LocalStorage com estruturas dados baseada em JSON, retornando no campo agendamentos realizados confirmação da consulta contendo o nome do médico, data e horário. Um exemplo da tela é apresentado na figura 25. 
-
-![alt text](/docs/img/template/agendamentorealizado.png)
-##### *Figura 25 - tela com agendamento realizado*
 
 <u>**Requisitos atendidos**</u>
 
