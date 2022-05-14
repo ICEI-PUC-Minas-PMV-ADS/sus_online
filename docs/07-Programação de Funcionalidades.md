@@ -66,3 +66,28 @@ RF-02 - O sistema deve cadastrar pacientes. O cadastro deve conter nome completo
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
 2. Descompacte o arquivo em uma pasta específica; 
 3. Abra o Visual Studio Code e execute o Live Server; 
+
+- **Tela home-page do paciente (RF-12, RNF-01, RNF-03, RNF-04)**
+
+A tela home-page do paciente permite a visualização dos alertas sobre medicamentos, consultas etc.
+
+![alt text](/docs/img/template/home_paciente.png)
+##### *Figura 29 - Tela Home-Page do Paciente*
+
+<u>**Requisitos Atendidos**</u>
+
+RF-12 - O sistema deve notificar o paciente por SMS, e-mail e quadro de notificação, eventuais intercorrências referentes ao seu atendimento, casos como ausência do médico e atrasos.
+
+<u>**Artefatos da funcionalidade**</u>
+
+- index.html
+- home_paciente.css
+- foto_usuario.png
+- warning.png
+- alert.png
+
+<u>**Instruções de acesso**</u>
+
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+2. Descompacte o arquivo em uma pasta específica; 
+3. Abra o Visual Studio Code e execute o Live Server; 
