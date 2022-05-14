@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SUS On-Line - Dados Cadastrais</title>
+    <title>SUS On-Line - Home</title>
     <link rel="icon" type="image/x-icon" href="../../../assets/img/sus_online.svg">
     <link rel="stylesheet" href="../../../assets/css/style.css">
     <link rel="stylesheet" href="./css/home_paciente.css">
@@ -47,7 +47,7 @@
             <header>
                 <div class="flexbox-row row-1">
                     <span class="header">Nome do Usuário</span>
-                    <span class="material-icons icons-head">account_circle</span>
+                    <span><img class="usuario" src="./img/foto_usuario.png" alt="some text"></span>
                     <a href="../../account/paciente/index.html">
                         <span class="material-icons icons-head">menu</span>
                     </a>
@@ -56,7 +56,7 @@
 
             <div class="flexbox-row row-2">
                 <div class="panel panel-1">
-                    <span class="title">Consultas On-line</span>
+                    <span class="title">Home</span>
                     <div class="line-2"></div>
                     <div class="alertas">
                         <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
@@ -66,35 +66,37 @@
                             </symbol>
                         </svg>
                         <div class="alert alert-warning d-flex align-items-center alert-azul" role="alert">
-                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Warning:">
-                                <use xlink:href="#exclamation-triangle-fill" />
-                            </svg>
-                            <div>
-                                <p>
-                                    A consulta B27 foi cancelada devido a ausência do médico.
-                                </p>
+                            <div class="quadrado">
+                                <img class="simbolos" src="img/warning.png" alt="">
+                            </div>
+                            <div class="information">
+                                Seu exame foi remarcado para o dia 25/05/2022 as 10:00h
+                            </div>
+                        </div>
+                        <div class="alert alert-warning d-flex align-items-center alert-azul" role="alert">
+                            <div class="quadrado">
+                                <img class="simbolos" src="img/warning.png" alt="">
+                            </div>
+                            <div class="information">
+                                Medicamentos disponíveis para retirada: Dipirona, Dramin
                             </div>
                         </div>
                         <div class="alert alert-danger d-flex align-items-center alert-azul" role="alert">
-                            <svg class="bi flex-shrink-0 me-2" width="24" height="24" role="img" aria-label="Danger:">
-                                <use xlink:href="#exclamation-triangle-fill" />
-                            </svg>
-                            <div>
-                                <p>
-                                    Seu exame foi remarcado para o dia 25/05/2022 ás 10:00h
-                                </p>
+                            <div class="quadrado2">
+                                <img class="simbolos" src="img/alert.png" alt="">
+                            </div>
+                            <div class="information">
+                                A consulta B27 foi cancelada devido a ausência do médico.
                             </div>
                         </div>
                         <div class="alert alert-warning alert-azul" role="alert">
-                            <p class="text-exam-alert-custom">
-                                Pedido de exame: A24 - Exame de sangue <br>
-                                Médico: Fulano <br>
-                                Paciente: Ciclano <br>
-                                <br>
-                                Agendada para dia 30/05/2022 ás 09:00h <br>
-                                Laboratório: 123 <br>
-                                Endereço: Rua 456, n°1
-                            </p>
+                            Pedido de exame: A24 - Exame de sangue <br>
+                            Médico: Fulano <br>
+                            Paciente: Ciclano <br>
+                            <br>
+                            Agendada para dia 30/05/2022 ás 09:00h <br>
+                            Laboratório: 123 <br>
+                            Endereço: Rua 456, n°1
                         </div>
                     </div>
                 </div>
@@ -108,6 +110,9 @@
         </div>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

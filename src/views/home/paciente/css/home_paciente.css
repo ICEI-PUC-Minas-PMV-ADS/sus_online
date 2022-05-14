@@ -1,13 +1,53 @@
 .alertas {
-    margin: 150px;
-    
+    margin: 150px;   
 }
 
+.information {
+    margin-left: 20px;
+}
 .alert-azul {
-    justify-content: center !important;
+    justify-content:  center;
     background-color: #3FBAD8 !important;
     color: white !important;
     display: flex;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
 }
+
+.quadrado2 {
+    width: 70px;
+    height: 60px;
+    background-color: white;
+}
+
+.quadrado {
+    width: 70px;
+    height: 60px;
+    background-color: #E33449;
+}
+.simbolos {
+    width: 70px;
+    height: 60px;
+}
+
+.usuario {
+    width: 90px;
+    height: 50px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+}
+
+footer {
+    height: 40px;
+    background-color: #3FBAD8;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
