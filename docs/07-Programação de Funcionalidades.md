@@ -91,3 +91,25 @@ RF-12 - O sistema deve notificar o paciente por SMS, e-mail e quadro de notifica
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
 2. Descompacte o arquivo em uma pasta específica; 
 3. Abra o Visual Studio Code e execute o Live Server; 
+
+- **Tela de consulta do paciente (RF-1, RF-13, RNF-11)**
+
+A tela home-page do paciente permite a visualização dos alertas sobre medicamentos, consultas etc.
+
+![alt text](/docs/img/template/paciente-consulta.png)
+##### *Figura 30 - Tela de consulta do Paciente*
+
+<u>**Requisitos Atendidos**</u>
+
+RF-13 - O sistema deve oferecer consultas através de videochamada entre médico e paciente.
+
+<u>**Artefatos da funcionalidade**</u>
+
+- index.html
+- style.css
+
+<u>**Instruções de acesso**</u>
+
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+2. Descompacte o arquivo em uma pasta específica; 
+3. Abra o Visual Studio Code e execute o Live Server; 
