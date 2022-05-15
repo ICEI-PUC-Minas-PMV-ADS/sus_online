@@ -43,6 +43,8 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
+![alt text](/docs/img/requisito_funcional_01_1.png)
+
 ![alt text](/docs/img/requisito_funcional_01.png)
 
 ![alt text](/docs/img/requisito_funcional_02.png)
