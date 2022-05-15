@@ -94,7 +94,7 @@ RF-12 - O sistema deve notificar o paciente por SMS, e-mail e quadro de notifica
 
 - **Tela de consulta do paciente (RF-1, RF-13, RNF-11)**
 
-A tela home-page do paciente permite a visualização dos alertas sobre medicamentos, consultas etc.
+A tela de consultas do paciente permite a interaçao por chamada de vídeo entre o paciente e o médico.
 
 ![alt text](/docs/img/template/paciente-consulta.png)
 ##### *Figura 30 - Tela de consulta do Paciente*
