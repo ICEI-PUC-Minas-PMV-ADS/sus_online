@@ -72,6 +72,9 @@ Tela que permite ao usuário a seleção de agendamento e reagendamento para con
 ##### *Figura 14 - tela de agendamento do paciente*
 
 9. **Tela de consulta – Paciente**
+
+Permite que o paciente entre em consulta com o médico.
+
 ![alt text](/docs/img/template/paciente-consulta.png)
 ##### *Figura 15 - tela de consulta médica do paciente*
 
