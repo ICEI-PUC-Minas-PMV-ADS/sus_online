@@ -39,6 +39,11 @@ A responsividade segue o padrão do Bootstrap.
 
 1. **Tela de login**
 
+Tela que permite ao usuário realizar o login e o registro na aplicação.
+
+![alt text](/docs/img/template/login.png)
+##### *Figura 12 - tela de Login*
+
 2. **Tela de recuperação de senha**
 
 3. **Tela de cadastro do paciente**
