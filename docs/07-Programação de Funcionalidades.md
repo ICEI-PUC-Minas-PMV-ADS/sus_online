@@ -32,15 +32,10 @@ Tela que permite ao usuário realizar o login ou o registro na aplicação, o us
 
 - **Tela de agendamento – Paciente (RF–07, RF–08, RF–09 e RF–10)**
 
-Tela que permite ao usuário a seleção de agendamento e reagendamento para consulta. A seleção de data e hora são armazenadas no LocalStorage com estruturas dados baseada em JSON. 
+Tela que permite ao usuário selecionar a especialidade médica desejada e através da opção selecionada, o usuário poderá escolher a data e a hora da consulta, que serão armazenados no LocalStorage com estruturas dados baseada em JSON, retornando no campo agendamentos realizados a confirmação da consulta contendo o nome do médico, data e horário.  
 
 ![alt text](/docs/img/template/agendamento.png)
 ##### *Figura 24 - tela de agendamento do paciente*
-
-A tela de agendamento do paciente permite ao usuário selecionar a especialidade médica desejada, através do botão que marcará somente uma opção. Através da opção escolhida, o usuário poderá escolher a data e a hora da consulta, que serão armazenados no LocalStorage com estruturas dados baseada em JSON, retornando no campo agendamentos realizados confirmação da consulta contendo o nome do médico, data e horário. Um exemplo da tela é apresentado na figura 25. 
-
-![alt text](/docs/img/template/agendamentorealizado.png)
-##### *Figura 25 - tela com agendamento realizado*
 
 <u>**Requisitos atendidos**</u>
 
@@ -93,6 +88,53 @@ RF-04 - O sistema deve ser capaz de disponibilizar ao paciente a alteração de 
 
 ![alt text](/docs/img/template/estrutura-cadastro.png)
 ##### *Figura 28 - estrutura de dados*
+
+<u>**Instruções de acesso**</u>
+
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+2. Descompacte o arquivo em uma pasta específica; 
+3. Abra o Visual Studio Code e execute o Live Server; 
+
+- **Tela home-page do paciente (RF-12, RNF-01, RNF-03, RNF-04)**
+
+A tela home-page do paciente permite a visualização dos alertas sobre medicamentos, consultas etc.
+
+![alt text](/docs/img/template/home_paciente.png)
+##### *Figura 29 - Tela Home-Page do Paciente*
+
+<u>**Requisitos Atendidos**</u>
+
+RF-12 - O sistema deve notificar o paciente por SMS, e-mail e quadro de notificação, eventuais intercorrências referentes ao seu atendimento, casos como ausência do médico e atrasos.
+
+<u>**Artefatos da funcionalidade**</u>
+
+- index.html
+- home_paciente.css
+- foto_usuario.png
+- warning.png
+- alert.png
+
+<u>**Instruções de acesso**</u>
+
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+2. Descompacte o arquivo em uma pasta específica; 
+3. Abra o Visual Studio Code e execute o Live Server; 
+
+- **Tela de consulta do paciente (RF-1, RF-13, RNF-11)**
+
+A tela de consultas do paciente permite a interaçao por chamada de vídeo entre o paciente e o médico.
+
+![alt text](/docs/img/template/paciente-consulta.png)
+##### *Figura 30 - Tela de consulta do Paciente*
+
+<u>**Requisitos Atendidos**</u>
+
+RF-13 - O sistema deve oferecer consultas através de videochamada entre médico e paciente.
+
+<u>**Artefatos da funcionalidade**</u>
+
+- index.html
+- style.css
 
 <u>**Instruções de acesso**</u>
 
