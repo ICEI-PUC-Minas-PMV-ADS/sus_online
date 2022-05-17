@@ -41,13 +41,3 @@
     align-items: center;
     justify-content: center; 
 }
-
-footer {
-    height: 40px;
-    background-color: #3FBAD8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
