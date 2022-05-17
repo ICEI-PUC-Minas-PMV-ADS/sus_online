@@ -48,11 +48,16 @@ function componenteBotaoLogin_Click() {
     // TODO: ADICIONAR VALIDACAO PARA OS CAMPOS
 
     $('.login-model').each(function () {
-        userLogin[$(this).attr('type')] = $(this).val();
+        userLogin[$(this).attr('model-type')] = $(this).val();
     });
 
     var userExists = controller.findByEmailAndPassword(userLogin);
     
+    if(!Boolean(userExists)){
+        alert("Usuário não cadastrado. Realize o Login!");
+    }
+
+    sessionStorage.setItem('user-logged', userExists.id);
     window.location.href = `./../home/${userExists.role}`;
 }
 
@@ -65,7 +70,6 @@ function componenteBotaoRegister_Click() {
     // TODO: ADICIONAR VALIDACAO PARA OS CAMPOS
 
     $('.register-model').each(function () {
-        // Get value input dinamically
         userCreate[$(this).attr('model-type')] = $(this).val();
     });
 
