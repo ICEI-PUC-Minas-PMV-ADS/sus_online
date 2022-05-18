@@ -1,10 +1,11 @@
 .alertas {
-    margin: 150px;   
+    margin: 150px;
 }
 
 .information {
     margin-left: 20px;
 }
+
 .alert-azul {
     justify-content:  center;
     background-color: #3FBAD8 !important;
@@ -35,9 +36,12 @@
     height: 50px;
 }
 
-.title {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center; 
+.redirect-custom,
+.menu-text.hover {
+    cursor: pointer;
+}
+
+.container-custom {
+    overflow: auto !important;
+    height: 72vh;
 }

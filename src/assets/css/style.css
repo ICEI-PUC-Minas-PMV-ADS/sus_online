@@ -150,11 +150,15 @@ a.article:hover {
     background: rgb(214, 214, 214);
     height: 72vh;
     padding: 1vh 20vw;
-    overflow:auto; 
+    overflow:auto;
 }
 
 .h2-custom {
     color: #3FBAD8;
+}
+
+.img-user-custom {
+    height: 2vw !important;
 }
 
 @media (max-width: 768px) {
