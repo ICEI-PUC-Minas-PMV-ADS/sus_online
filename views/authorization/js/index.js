@@ -58,7 +58,7 @@ function componenteBotaoLogin_Click() {
     }
 
     sessionStorage.setItem('user-logged', userExists.id);
-    window.location.href = `./../home/${userExists.role}`;
+    window.location.href = `./../home/`;
 }
 
 /*
