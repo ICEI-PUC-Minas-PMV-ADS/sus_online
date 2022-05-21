@@ -1,6 +1,19 @@
+import { uuidIdentifierGenerator } from "../../../helpers/uuidIdentifierGenerator.js";
+
 var listaAgendamento = [];
 
-function agendar() {
+/*
+    Ocorre antes que o formulário seja exibido pela primeira vez.
+*/
+$(document).ready(() => {
+    $('.botao-agendar').click(componentBotaoAgendarConsulta_Click);
+    $('.botao-cancelar').click(componentBotaoLimparConsulta_Click);
+});
+
+/*
+
+*/
+function componentBotaoAgendarConsulta_Click() {
     let clinicoGeral = document.getElementById("radio-clinico-geral").checked;
     let psicologo = document.getElementById("radio-psicologo").checked;
     let retorno = document.getElementById("radio-retorno").checked;
@@ -13,13 +26,20 @@ function agendar() {
         alert("Selecione a hora")
     } else {
         listaAgendamento.push({
-            id: makeid(5),
+            id: uuidIdentifierGenerator.generate(),
             medico: obterMedico(clinicoGeral, psicologo, retorno),
             data: data,
             hora: hora
         });
         exibirAgendamento();
     }  
+}
+
+/*
+    
+*/
+function componentBotaoLimparConsulta_Click() {
+    $('#data, #hora').val("");
 }
 
 function exibirAgendamento() {
@@ -56,21 +76,4 @@ function formatarData(data) {
 function excluirgendamento(id) {
     listaAgendamento = listaAgendamento.filter(e => e.id != id);
     exibirAgendamento();
-} 
-
-function makeid(length) {
-    var result           = '';
-    var characters       = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for ( var i = 0; i < length; i++ ) {
-      result += characters.charAt(Math.floor(Math.random() * 
- charactersLength));
-   }
-   return result;
 }
-
-function limpar() {
-    document.getElementById("data").value = "";
-    document.getElementById("hora").value = "";
-}
-
