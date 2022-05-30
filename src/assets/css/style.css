@@ -17,20 +17,6 @@ a:focus {
     transition: all 0.3s;
 }
 
-.navbar {
-    padding: 15px 10px;
-    background: #3FBAD8;
-    border: none;
-    border-radius: 0;
-    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
-}
-
-.navbar-btn {
-    box-shadow: none;
-    outline: none !important;
-    border: none;
-}
-
 .line {
     width: 70% !important;
     height: 1px !important;
@@ -129,12 +115,6 @@ a.article:hover {
 
 .menu-link {
     align-items: center;
-}
-
-.footer-custom {
-    font-weight: bold;
-    color: #ffffff;
-    background: #3FBAD8;
 }
 
 .nav-custom {

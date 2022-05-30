@@ -1,0 +1,13 @@
+.navbar {
+    padding: 15px 10px;
+    background: #3FBAD8;
+    border: none;
+    border-radius: 0;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-btn {
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+}
