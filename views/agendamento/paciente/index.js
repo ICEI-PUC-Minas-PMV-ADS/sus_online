@@ -6,8 +6,8 @@ var listaAgendamento = [];
     Ocorre antes que o formulário seja exibido pela primeira vez.
 */
 $(document).ready(() => {
-    $('.botao-agendar').click(componentBotaoAgendarConsulta_Click);
-    $('.botao-cancelar').click(componentBotaoLimparConsulta_Click);
+    $(document).on('click', '.botao-agendar', componentBotaoAgendarConsulta_Click);
+    $(document).on('click', '.botao-cancelar', componentBotaoLimparConsulta_Click);
 });
 
 /*

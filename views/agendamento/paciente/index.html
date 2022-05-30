@@ -17,66 +17,10 @@
 
 <body>
     <main class="wrapper">
-        <nav id="sidebar">
-            <div class="sidebar-header row">
-                <img src="../../../assets/img/sus_online.svg" class="img-fluid img-nav-custom" alt="SUS Online">
-            </div>
-
-            <div class="row align-items-center justify-content-center">
-                <div class="line"></div>
-            </div>
-
-            <ul class="list-unstyled components">
-                <li>
-                    <a href="../../home/index.html">
-                        <span class="material-icons">home</span>
-                        <span class="menu-text">Home</span>
-                    </a>
-                </li>
-                <li class="menu-link">
-                    <a href="../../agendamento/paciente/"><span class="material-icons">calendar_today</span>
-                        <span class="menu-text">Agendamentos</span></a>
-                </li>
-                <li>
-                    <a href="../../consulta/paciente/"><span class="material-icons">question_answer</span>
-                        <span class="menu-text">Consulta On-line</span></a>
-                </li>
-                <li>
-                    <a href="../../exame/paciente/"><span class="material-icons">assignment</span>
-                        <span class="menu-text">Exames/Prescrições</span></a>
-                </li>
-            </ul>
-        </nav>
+        <nav class="data-partial" id="sidebar" partial-type="sidebar" partial-base="false" partial="paciente"></nav>
 
         <div class="nav-custom">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn">
-                        <i class="material-icons text-white">view_headline</i>
-                    </button>
-
-                    <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
-                        <!-- This is what is not working well -->
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item active">
-                                <a class="nav-link text-white" href="#">Nome do Usuário</a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    <img src="../../../assets/img/photo-user.png" class="img-user-custom">
-                                </a>
-
-                                <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item dropdown" href="../../conta/"> Conta </a>
-                                    <a class="dropdown-item" href="#"> Logout </a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
+            <nav class="data-partial" id="navbar" partial-type="navbar" partial-base="false"></nav>
 
             <div id="content" class="fw-bold">
                 <div class="bg-white content-child vh-75 pt-1 p-5">
@@ -159,11 +103,8 @@
                 </div>
             </div>
 
-            <footer class="mt-auto py-3 text-center footer-custom">
-                <div class="container">
-                    <span>Todos os direitos reservados para SUS On-line &#0169 2022</span>
-                </div>
-            </footer>
+            <footer class="data-partial mt-auto py-3 text-center footer-custom" id="footer" partial-type="footer"
+                    partial-base="false"></footer>
         </div>
     </main>
 </body>
