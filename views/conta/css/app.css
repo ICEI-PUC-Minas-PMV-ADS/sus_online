@@ -2,3 +2,40 @@
 .menu-text.hover {
     cursor: pointer;
 }
+
+.photoUrl {
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    left: 431px;
+    top: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(165, 165, 165);
+}
+
+.photo-user {
+    position: absolute;
+    width: 180px;
+    height: 100px;
+    left: -19px;
+    top: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+input[type="submit"],
+[type="reset"] {
+    width: 95px;
+    height: 40px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #3FBAD8;
+    cursor: pointer; 
+}
+
