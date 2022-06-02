@@ -4,10 +4,48 @@ import { UserController } from '../../controllers/UserController.js'
     Ocorre antes que o formulário seja exibido pela primeira vez.
 */
 $(document).ready(() => {
+    handleLayout_Load();
     componenteSidebar_Load();
-    $('#sidebarCollapse').click(componenteSidebar_Click);
-    $('.redirect-custom').click(componentMenu_Click);
+    $(document).on('click', '#sidebarCollapse', componenteSidebar_Click);
+    $(document).on('click', '.redirect-custom', componentMenu_Click);
 });
+
+/*
+
+*/
+async function handleLayout_Load() {
+    var controller = new UserController();
+    var idUserLogged = sessionStorage.getItem('user-logged');
+
+    var user = controller.findById(idUserLogged);
+
+    $('.data-partial').each(async function () {
+        var type = $(this).attr("partial-type");
+        var idComponent = $(this).attr("id");
+        var partialBase = Boolean($(this).attr("partial-base")) ? "../../../" : "../../";
+
+        var URL = Boolean($(this).attr("partial")) ?
+            `${partialBase}components/${type}/${user.role}` :
+            `${partialBase}components/${type}`
+
+        $('<link />', {
+            rel: 'stylesheet',
+            href: `${URL}/index.css`
+        }).appendTo('head');
+
+        await $.ajax({
+            url: `${URL}/index.html`,
+            type: 'GET',
+            success: function (data) {
+                $(`#${idComponent}`).html(data);
+                usuarioLogadoParameters_Load();
+            },
+            error: function (jqXHR, textStatus, errorThrown) {
+                alert(`Erro ao realizar o carregamento! ${errorThrown}`)
+            }
+        });
+    });
+}
 
 /*
 
@@ -37,8 +75,20 @@ function componentMenu_Click(event) {
 
     var user = controller.findById(idUserLogged);
 
-    window.location.href = 
+    window.location.href =
         $(this).attr('link-redirect') !== 'home' ?
             `./../${$(this).attr('link-redirect')}/${user.role}` :
             `./../${$(this).attr('link-redirect')}/`;
+}
+
+/*
+
+*/
+function usuarioLogadoParameters_Load() {
+    var controller = new UserController();
+    var idUserLogged = sessionStorage.getItem('user-logged');
+
+    var user = controller.findById(idUserLogged);
+
+    $("#user-name").text(user.nome);
 }
