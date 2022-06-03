@@ -30,12 +30,12 @@ input[type="file"] {
 
 input[type="submit"],
 [type="reset"] {
-    width: 95px;
-    height: 40px;
-    margin: 5px;
+    width: 83px;
+    height: 35px;
+    margin-left: 155px;
     border-radius: 5px;
     color: #ffffff;
     background-color: #3FBAD8;
-    cursor: pointer; 
+    border: 0;
+    cursor: pointer;
 }
-
