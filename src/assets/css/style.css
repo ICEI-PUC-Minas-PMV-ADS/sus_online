@@ -18,9 +18,9 @@ a:focus {
 }
 
 .line {
-    width: 70% !important;
-    height: 1px !important;
-    border: 2px solid #3FBAD8 !important;
+    width: 80% !important;
+    height: 3px !important;
+    background-color:  #3FBAD8 !important;
 }
 
 .wrapper {

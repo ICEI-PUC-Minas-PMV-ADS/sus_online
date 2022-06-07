@@ -1,0 +1,92 @@
+.material-icons {
+    size: 25px;
+    color: #3FBAD8;
+}
+
+.icons-head {
+    size: 110px;
+    margin: 5px;
+    color: #FFFFFF;
+}
+
+.panel-1 {
+    position: absolute;
+    width: 1520px;
+    height: 845px;
+    left: 290px;
+    top: 94px;
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.appointments {
+    width: 535px;
+    height: 145px;
+    left: 55px;
+    top: 150px;
+    background:  #e5e5e5;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+
+.appointments .material-icons {
+    position: relative;
+    top: -3px;
+    vertical-align:middle;
+    color: #000;
+}
+
+.name {
+    position: relative;
+    top: 25px;
+    left: 25px;   
+}
+
+.date {
+    position: relative;
+    left: 200px;
+    
+}
+
+.hour {
+    position: relative;
+    left: 200px;
+    
+}
+
+.button {
+    position: relative;
+    width: 170px;
+    height: 35px;
+    top: 6px;
+    left: 300px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: #8A8982;
+    border: none;
+}
+.button1 {
+    position: relative;
+    width: 170px;
+    height: 35px;
+    top: 800px;
+    left: 1000px;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    background-color: #b0d9f1;
+    border: none;
+}
+.video {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: -180px;
+    left: 650px;
+    border-radius: 5px;
+    background-color: #C4C4C4;
+    text-align: center;
+}
