@@ -16,18 +16,22 @@
 }
 
 .quadrado2 {
-    width: 70px;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 75px;
     height: 60px;
     background-color: white;
 }
 
 .quadrado {
-    width: 70px;
+    border-radius: 5px;
+    width: 75px;
     height: 60px;
     background-color: #E33449;
 }
 .simbolos {
-    width: 70px;
+    margin-left: 5px;
+    width: 65px;
     height: 60px;
 }
 
