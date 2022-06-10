@@ -1,12 +1,14 @@
 html {
     height: 100%;
 }
+
 body {
     height: 100%;
     margin: 0px;
     display: flex;
     flex-direction: row;
 }
+
 .sidenav {
     width: 290px; 
     height: 100%;
@@ -24,9 +26,9 @@ body {
     width: 100%;
 }
 .divider {
-    height: 3px;
+    height: 2px;
     background-color: #3FBAD8;
-    margin: 17px 15px;
+    margin: 20px 25px;
 }
 .menu {
     width: 100%;
@@ -107,15 +109,13 @@ body {
     flex-direction: row;
     justify-content: space-around;
 }
-.radio-label {
-    font-family: 'Manrope', sans-serif !important;
-    font-size: 19px;
-}
+
 .header-text {
     margin: 8px 0px;
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
+    font-size: 25px;
     color: #3FBAD8;
+    margin-top: 16px;
 
 }
 .cabecalho {
@@ -124,64 +124,50 @@ body {
     justify-content: center;
     align-items: center;
 }
-.data {
-    display: flex;
-}
-.hora {
-    font-family: 'Manrope', sans-serif;
-    font-size: 19px;
-}
+
 .botoes-content {
     display: flex;
     justify-content: flex-end;
     flex-direction: row;
-}
-.botao-agendar {
-    margin-right: 65px;
-    font-family: inherit;
-}
-.botao-cancelar {
-    margin-right: 180px;
-    font-family: 'Manrope', sans-serif;
-}
-.tabela-de-agendamentos {
-    padding: 5px;
-    margin-top: 20px;
-    overflow-y: auto;
-    max-height: 200px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.agendamento {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    border: 1px solid #3FBAD8; 
-    border-radius: 40px;
-    padding: 10px 63px;
-    margin-bottom: 10px;
-    align-items: center;
-}
-.agendamentos-realizados {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.header-text2 {
+    margin-right: 130px;
     margin-top: 50px;
-    font-family: 'Inter', sans-serif;
-    font-size: 22px;
-    color: #3FBAD8;
 }
-.reagendar {
-    margin-right: 10px;
-}
-.agendamento-texto {
+
+thead {
+    background-color: #000000c5;
+    color: #000000;
+    height: 30px;
+    width: 7%;
+    text-align: center;
     font-family: 'Manrope', sans-serif;
-    font-size: 17px;
+    padding: 5px;
+    border: 1px solid white;
+    align-items: center;
+    
+}
+tbody td, tfoot, tr {
+    background-color: #e7f3f7c4;
+    width: 12%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    padding: 5px;
+    border: 1px solid white;
+    border-style: ridge;
+    align-items: center;
+    
+}
+
+tr:hover {
+    background-color: #021af760;
+    
 }
 
 #sidebar {
     min-width: 270px;
+}
+
+p {
+    color: #000000;
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
 }
