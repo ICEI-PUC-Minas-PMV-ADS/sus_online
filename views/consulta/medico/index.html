@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>SUS Online</title>
+    <link rel="stylesheet" href="/src/views/consulta/medico/css/style.css">
     <link rel="icon" type="image/x-icon" href="../../../assets/img/sus_online.svg">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="../../../assets/css/style.css">
@@ -27,16 +28,54 @@
                         <h2 class="h2-custom">Consultas Online</h2>
                         <div class="line m-auto mb-3"></div>
                     </span>
-                    
+                        <!--Content-->
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="row-md">
+                                    <div class="hstack gap-3 justify-content-evenly">
+                                        <button type="button" class="btn btn-primary">Iniciar consulta</button>
+                                        <button type="button" class="btn btn-primary">Encerrar consulta</button>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="hstack gap-3 justify-content-evenly">
+                                        <span class="label">Receita</span>
+                                        <span class="label">Atestado</span>
+                                    </div>
+                                </div>
+                                <div class="col" id="col1">
+                                    <div class="hstack gap-3">
+                                        <textarea name="textarea" rows="18" cols="48"></textarea>
+                                        <textarea name="textarea" rows="18" cols="48"></textarea>
+                                    </div>
+                                    <div class="hstack gap-3 justify-content-evenly">
+                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                        <button type="button" class="btn btn-primary">Cancelar</button>
+                                        <button type="button" class="btn btn-primary">Enviar</button>
+                                        <button type="button" class="btn btn-primary">Cancelar</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="col" id="col2">
+                                    <span class="label2">PRONTUÁRIO</span>
+                                    <textarea name="textarea" rows="20" cols="48"></textarea>
+                                    <div class="hstack gap-3 justify-content-evenly">
+                                        <button type="button" class="btn btn-primary">Salvar</button>
+                                        <button type="button" class="btn btn-primary">Encaminhar</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <footer class="data-partial mt-auto py-3 text-center footer-custom" id="footer" partial-type="footer" partial-base="false"></footer>
             </div>
-
-            <footer class="data-partial mt-auto py-3 text-center footer-custom" id="footer" partial-type="footer"
-                    partial-base="false"></footer>
         </div>
     </main>
 </body>
-
+<script src="/src/views/consulta/medico/js/button.js"></script>
 <script src="../../../assets/js/jquery.js" type="text/javascript"></script>
 <script
     src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
