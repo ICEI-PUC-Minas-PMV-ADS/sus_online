@@ -140,4 +140,25 @@ RF-13 - O sistema deve oferecer consultas através de videochamada entre médico
 
 1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
 2. Descompacte o arquivo em uma pasta específica; 
-3. Abra o Visual Studio Code e execute o Live Server; 
+3. Abra o Visual Studio Code e execute o Live Server;
+
+- **Tela de exame do paciente (RF-11, RNF-3, RNF-10-)**
+
+![alt text](/docs/img/template/exame-paciente.png)
+##### *Figura 31 - tela de exame do paciente*
+
+<u>**Requisitos Atendidos**</u>
+RF-11 O sistema deve ser capaz de armazenar anexos. 
+
+<u>**Artefatos da funcionalidade**</u>
+
+- index_cadastro.html 
+- style_cadastro.css 
+- Logo.png 
+
+<u>**Instruções de acesso**</u>
+
+1. Faça o download do arquivo do projeto (ZIP) ou clone do projeto no GitHub; 
+2. Descompacte o arquivo em uma pasta específica; 
+3. Abra o Visual Studio Code e execute o Live Server;
+
