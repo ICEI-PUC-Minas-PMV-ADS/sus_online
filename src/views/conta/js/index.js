@@ -5,6 +5,8 @@ import { UserController } from '../../../controllers/UserController.js'
 */
 $(document).ready(() => {
     usuarioLogado_Load();
+    $(document).on('keypress', '.max-char', verificaTotalMaximoCaracteteres_Event);
+    $(document).on('input', '.only-Letter', verificaCampoIsLetter_Event);
 });
 
 /*
@@ -24,4 +26,20 @@ function usuarioLogado_Load() {
             }
         });
     });
+}
+
+//
+function confirmaSenha(password, passwordTwo) {
+
+    if (password === '' || password.length <= 6) {
+
+        console.log("Preencha esse campo. A senha deve conter no mínimo 6 caracteres.");
+
+    } else if (password !== passwordTwo) {
+
+        console.log("A senha não confere.");
+
+    } else {
+        console.log("Senha confirmada.");
+    }
 }
