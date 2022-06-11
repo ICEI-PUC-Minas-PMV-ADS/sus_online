@@ -20,11 +20,8 @@ Os resultados obtidos nos testes de software realizados são descritos abaixo.
 
 ![alt text](/docs/img/registro-teste/Imagem4.png)
 
- 
+
 - T.12 - Testar a função e se está dentro do prazo estipulado 
 
 ![alt text](/docs/img/registro-teste/Imagem6.png)
 
-- T.09 - Testar se é possível remarcar consultas
- 
-![alt text](/docs/img/registro-teste/Imagem5.png)
