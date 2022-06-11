@@ -6,7 +6,7 @@
 
 `1º SEMESTRE DE 2022`
 
-![alt text](docs/img/sus_online.png)
+![alt text](docs/img/sus_online.jpg)
 
 Website em desenvolvimento a fim de propiciar maior agilidade nos atendimentos fornecidos pelo sistema público de saúde.
 
