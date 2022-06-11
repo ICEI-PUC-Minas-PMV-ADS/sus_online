@@ -86,6 +86,11 @@ Permite que o paciente entre em consulta com o médico.
 
 10. **Tela de exames – Paciente**
 
+Permite que o usuário visualize, imprima ou anexe algum documento aos seus exames e consultas. Mostra ao usuário sua lista de exames e consultas em andamento. 
+
+![alt text](/docs/img/template/exame-paciente.png)
+##### *Figura 16 - tela de exame do paciente*
+
 11. **Tela de atendimentos - Médico**
 
 Em construção
