@@ -141,6 +141,12 @@ a.article:hover {
     height: 2vw !important;
 }
 
+@media (max-width: 1500px) {
+    .img-user-custom {
+        height: 4vw !important;
+    }
+}
+
 @media (max-width: 768px) {
     #sidebar {
         margin-left: -250px;
@@ -152,6 +158,10 @@ a.article:hover {
 
     #sidebarCollapse span {
         display: none;
+    }
+
+    .img-user-custom {
+        height: 8vw !important;
     }
 }
 
