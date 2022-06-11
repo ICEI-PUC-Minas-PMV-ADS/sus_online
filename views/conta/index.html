@@ -39,17 +39,17 @@
                         <form class="w-100 h-100">
                             <div class="mb-3">
                                 <label class="form-label">Nome Completo:</label>
-                                <input type="text" class="form-control update-model" model-type="nome" id="nome" required>
+                                <input type="text" class="form-control update-model only-Letter" model-type="nome" required>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col">
                                     <label class="form-label">CPF:</label>
-                                    <input type="text" class="form-control update-model" model-type="cpf" id="cpf" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="number" class="form-control update-model max-char" model-type="cpf" max-char-size=10 required>
                                 </div>
                                 <div class="col">
                                     <label class="form-label">RG:</label>
-                                    <input type="text" class="form-control update-model" model-type="rg" id="rg" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="number" class="form-control update-model max-char" model-type="rg" max-char-size=11 required>
                                 </div>
                             </div>
 
@@ -60,28 +60,28 @@
                                 </div>
                                 <div class="col">
                                     <label class="form-label">Registro:</label>
-                                    <input type="text" class="form-control update-model" model-type="documento" id="registro" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="number" class="form-control update-model max-char" model-type="documento" max-char-size=9 required>
                                 </div>
                             </div>
 
                             <div class="mb-3">
                                 <label for="InputNomeMae" class="form-label">Nome da Mãe:</label>
-                                <input type="text" class="form-control update-model" model-type="nome_mae" id="nomeMae" required>
+                                <input type="text" class="form-control update-model only-Letter" model-type="nome_mae" required>
                             </div>
 
                             <div class="mb-3">
                                 <label for="InputEndereco" class="form-label">Endereço:</label>
-                                <input type="text" class="form-control update-model" model-type="endereco" id="endereco" required>
+                                <input type="text" class="form-control update-model only-Letter" model-type="endereco" required>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col">
                                     <label class="form-label">CEP:</label>
-                                    <input type="text" class="form-control update-model" model-type="cep" id="cep" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="text" class="form-control update-model max-char" model-type="cep" max-char-size=7 required>
                                 </div>
                                 <div class="col">
                                     <label class="form-label">Nº:</label>
-                                    <input type="text" class="form-control update-model" model-type="numero" id="numero" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="number" class="form-control update-model max-char" model-type="numero" max-char-size=5 required>
                                 </div>
                                 <div class="col">
                                     <label class="form-label">Complemento:</label>
@@ -92,7 +92,7 @@
                             <div class="row mb-3">
                                 <div class="col">
                                     <label class="form-label">Telefone:</label>
-                                    <input type="text" class="form-control update-model" model-type="telefone" id="tel" onkeypress="return event.charCode >= 48 && event.charCode <= 57" required>
+                                    <input type="number" class="form-control update-model max-char" model-type="telefone" max-char-size=11 required>
                                 </div>
                                 <div class="col">
                                     <label class="form-label">E-mail:</label>
@@ -103,11 +103,11 @@
                             <div class="row mb-3">
                                 <div class="col">
                                     <label class="form-label">Senha:</label>
-                                    <input type="password" class="form-control update-model" model-type="password" id="password" required>
+                                    <input type="password" class="form-control update-model" model-type="password" required>
                                 </div>
                                 <div class="col">
                                     <label class="form-label">Confirmar Senha:</label>
-                                    <input type="password" class="form-control update-model" model-type="confirm_password" id="password-two" required>
+                                    <input type="password" class="form-control update-model" model-type="confirm_password" required>
                                 </div>
                             </div>
 
@@ -136,9 +136,6 @@
     crossorigin="anonymous"></script>
 <script src="../../assets/js/index.js" type="module"></script>
 <script src="./js/index.js" type="module"></script>
-<script src="./js/only_letter.js"></script>
-<script src="./js/maxChars.js"></script>
-<script src="./js/password.js"></script>
-<script src="./js/cpf.js"></script>
+<script src="../../helpers/stringHelper.js" type="module"></script>
 
 </html>
