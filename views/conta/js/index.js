@@ -5,8 +5,6 @@ import { UserController } from '../../../controllers/UserController.js'
 */
 $(document).ready(() => {
     usuarioLogado_Load();
-    $(document).on('keypress', '.max-char', verificaTotalMaximoCaracteteres_Event);
-    $(document).on('input', '.only-Letter', verificaCampoIsLetter_Event);
 });
 
 /*
