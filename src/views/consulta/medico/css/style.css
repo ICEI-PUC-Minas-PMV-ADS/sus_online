@@ -1,0 +1,36 @@
+.row-md {
+    border-radius: 10px;
+    height: 90%;
+    background-color: #d2edfc;
+}
+textarea {
+    border-radius: 5px;
+    resize: none;
+}
+.label {
+    background-color: #68c2f5;
+    margin: 0.3em;
+    width: 15em;
+    color: white;
+    font-size: 3em;
+    font-weight: 100;
+    text-align: center;
+    border-radius: 5px;
+}
+.label2 {
+    width: 15em;
+    font-size: 3em;
+    align-items: center;
+    text-align: center;
+}
+#col1 {
+    background-color: #d2edfc;
+    margin: auto;
+    border-radius: 5px;
+}
+#col2 {
+    background-color: #e1eafd;
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
