@@ -8,6 +8,7 @@ var listaAgendamento = [];
 $(document).ready(() => {
     $(document).on('click', '.botao-agendar', componentBotaoAgendarConsulta_Click);
     $(document).on('click', '.botao-cancelar', componentBotaoLimparConsulta_Click);
+    $(document).on('click', '.botao-excluir', excluirgendamento);
 });
 
 /*
@@ -52,7 +53,7 @@ function exibirAgendamento() {
         agendamento += `ás ${element.hora}h`;
         agendamento += `</div>`; 
         agendamento += "<div>";
-        agendamento += `<button class="btn btn-primary excluir" onclick="excluirgendamento('${element.id}')">CANCELAR</button>`;
+        agendamento += `<button class="btn btn-primary botao-excluir" element-id='${element.id}'">CANCELAR</button>`;
         agendamento += "</div>";
         agendamento += "</div>";
     });
@@ -73,7 +74,8 @@ function formatarData(data) {
     return `${dia}/${mes}/${ano}`;
 }
 
-function excluirgendamento(id) {
+function excluirgendamento() {
+    var id = $(this).attr("element-id");
     listaAgendamento = listaAgendamento.filter(e => e.id != id);
     exibirAgendamento();
 }
