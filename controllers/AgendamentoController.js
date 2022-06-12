@@ -1,10 +1,9 @@
-import { uuidIdentifierGenerator } from "../helpers/uuidIdentifierGenerator.js";
 import { BaseController } from "./base/BaseController.js";
+import { uuidIdentifierGenerator } from "../helpers/uuidIdentifierGenerator.js";
 
-export class UserController extends BaseController {
-
+export class AgendamentoController extends BaseController {
     constructor() {
-        super("_user");
+        super("_agendamento");
     }
 
     save(payload) {
@@ -19,17 +18,9 @@ export class UserController extends BaseController {
         return this.itemCollection.find(element => element.id == id);
     };
 
-    findByRole(role) {
-        var listUser = this.findAll();
-        return listUser.filter(element => element.role == role);
-    };
-
-    findByEmailAndPassword(payload) {
-        this.initQuery();
-        return this.itemCollection.find(element =>
-            element.email == payload.email
-            && element.password == payload.password
-        );
+    findByPacienteId(pacienteId) {
+        var listAgendamentos = this.findAll();
+        return listAgendamentos.filter(element => element.paciente_id == pacienteId);
     };
 
     findAll() {
@@ -45,8 +36,13 @@ export class UserController extends BaseController {
         this.commit();
     };
 
-    softDelete(payload) {
-        payload.active = false;
-        updateById(payload);
+    softDelete(id) {
+        this.initQuery();
+        var positionAgendamento = this.itemCollection.findIndex(element => element.id == id);
+
+        if (positionAgendamento > -1) {
+            this.itemCollection.splice(positionAgendamento, 1);
+        }
+        this.commit();    
     };
 }
