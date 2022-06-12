@@ -32,27 +32,43 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-md-8">
-                                <div class="row-md text-center">
-                                    <div id="videoFrame" style="display:none" class="text-center">Video</div>
-                                    <div id="videoFrame2" style="display:block"></div>
-                                    <div class="hstack gap-3 justify-content-evenly">
-                                        <button type="button" class="btn btn-primary" onclick="showDiv()">Iniciar consulta</button>
-                                        <button type="button" class="btn btn-primary" onclick="hideDiv()">Encerrar consulta</button>
+                                <div class="row">
+                                    <div class="col1 p-2">
+                                        <div class="row justify-content-center">
+                                            <div id="videoFrame" style="display:none" class="text-center">Video</div>
+                                            <div id="videoFrame2" style="display:block"></div>
+                                        </div>
+                                        <div class="hstack gap-2 justify-content-evenly">
+                                            <button type="button" class="btn btn-primary" onclick="showDiv()">Iniciar consulta</button>
+                                            <button type="button" class="btn btn-primary" onclick="hideDiv()">Encerrar consulta</button>
+                                        </div>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="hstack gap-3">
-                                        <span class="label">Receita</span>
-                                        <span class="label">Atestado</span>
+                                        <h2 class="label">Receita</h2>
+                                        <h2 class="label">Atestado</h2>
                                     </div>
                                 </div>
                                 <div class="row g-2">
-                                    <div class="col" id="col1">
-                                            <textarea name="textarea" rows="18" cols="46"></textarea>
-                                            <textarea name="textarea" rows="18" cols="46"></textarea>
-                                        <div class="hstack gap-3 justify-content-evenly">
+                                    <div class="col-6" id="col2">
+                                        <div class="row">
+                                            <div class="col text-center pt-2">
+                                                <textarea name="textarea" style="height:80%;width:90%"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="hstack gap-2 justify-content-evenly p-2">
                                             <button type="button" class="btn btn-primary">Enviar</button>
                                             <button type="button" class="btn btn-primary">Cancelar</button>
+                                        </div>
+                                    </div>
+                                    <div class="col-6" id="col2">
+                                        <div class="row ">
+                                            <div class="col text-center pt-2">
+                                                <textarea name="textarea" style="height:80%;width:90%"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="hstack gap-2 justify-content-evenly p-2">
                                             <button type="button" class="btn btn-primary">Enviar</button>
                                             <button type="button" class="btn btn-primary">Cancelar</button>
                                         </div>
@@ -60,10 +76,12 @@
                                 </div>
                             </div>
                             <div class="col-md-4">
-                                <div class="col" id="col2">
-                                    <span class="label2">PRONTUÁRIO</span>
-                                    <textarea name="textarea" rows="20" cols="46"></textarea>
-                                    <div class="hstack gap-3 justify-content-evenly">
+                                <div class="col h-100" id="col3">
+                                    <div class="col w-100 pt-2">
+                                        <h3>PRONTUÁRIO</h3>
+                                    </div>
+                                    <textarea name="textarea" style="height:80%;width:90%"></textarea>
+                                    <div class="hstack gap-3 justify-content-evenly p-2">
                                         <button type="button" class="btn btn-primary">Salvar</button>
                                         <button type="button" class="btn btn-primary">Encaminhar</button>
                                     </div>
