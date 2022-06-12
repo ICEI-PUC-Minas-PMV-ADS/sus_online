@@ -1,11 +1,11 @@
 .row-md {
     border-radius: 10px;
-    height: 90%;
     background-color: #d2edfc;
 }
 textarea {
-    border-radius: 5px;
+    border-radius: 15px;
     resize: none;
+    
 }
 .label {
     background-color: #68c2f5;
@@ -33,4 +33,17 @@ textarea {
     text-align: center;
     margin: auto;
     border-radius: 5px;
+}
+#videoFrame {
+    max-width: 500px;
+    height: 500px;
+    background-color: #787e8b;
+
+}
+#videoFrame2 {
+    max-width: 500px;
+    height: 500px;
+}
+.btn {
+    width: 160px;
 }
