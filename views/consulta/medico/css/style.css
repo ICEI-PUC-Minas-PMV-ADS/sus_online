@@ -1,9 +1,10 @@
-.row-md {
+.col1 {
     border-radius: 10px;
     background-color: #d2edfc;
 }
 textarea {
     border-radius: 15px;
+    min-height: 250px;
     resize: none;
     
 }
@@ -12,38 +13,49 @@ textarea {
     margin: 0.3em;
     width: 15em;
     color: white;
-    font-size: 3em;
     font-weight: 100;
     text-align: center;
     border-radius: 5px;
 }
 .label2 {
-    width: 15em;
-    font-size: 3em;
+   
     align-items: center;
     text-align: center;
 }
-#col1 {
-    background-color: #d2edfc;
-    margin: auto;
-    border-radius: 5px;
-}
 #col2 {
+    
+    margin: auto;
+    
+}
+#col3 {
     background-color: #e1eafd;
     text-align: center;
     margin: auto;
     border-radius: 5px;
 }
 #videoFrame {
+    min-width: 250px;
     max-width: 500px;
-    height: 500px;
+    min-height: 250px;
+    max-height: 500px;
     background-color: #787e8b;
+    border-radius: 5px;
 
 }
 #videoFrame2 {
+    min-width: 250px;
     max-width: 500px;
-    height: 500px;
+    min-height: 250px;
+    max-height: 500px;
 }
 .btn {
-    width: 160px;
+    width: 50%;
+}
+.col-md {
+    min-width: 400px;
+}
+.g-2 {
+    background-color: #d2edfc;
+    border-radius: 5px;
+    
 }
