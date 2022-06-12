@@ -30,26 +30,11 @@
                     </span>
                     <div class="campo-content">
                         <div class="radio">
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="0" name="flexRadioDefault"
-                                    id="radio-clinico-geral">
-                                <label class="form-check-label radio-label" for="flexRadioDefault1">
-                                    Clínico Geral
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="1" name="flexRadioDefault"
-                                    id="radio-psicologo" checked>
-                                <label class="form-check-label radio-label" for="flexRadioDefault2">
-                                    Psicólogo
-                                </label>
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="radio" value="2" name="flexRadioDefault"
-                                    id="radio-retorno" checked>
-                                <label class="form-check-label radio-label" for="flexRadioDefault2">
-                                    Retorno
-                                </label>
+                            <div>
+                                <label for="medico">Selecione um Médico: </label>
+                                <select id="list-medico" style="font-size: 17px;">
+                                    <option value="">selecionar</option>
+                                </select>
                             </div>
                         </div>
                         <div class="data">
@@ -91,7 +76,7 @@
                     <div class="botoes-content">
                         <button type="button" class="btn btn-primary botao-agendar"
                             style="font-size: 12px; background-color: #3FBAD8; border-color: #3FBAD8;">AGENDAR</button>
-                        <button type="button" class="btn btn-primary botao-cancelar"
+                        <button type="button" class="btn btn-primary botao-limpar"
                             style="font-size: 12px; background-color: #3FBAD8; border-color: #3FBAD8;">LIMPAR</button>
                     </div>
                     <div class="agendamentos-realizados">
