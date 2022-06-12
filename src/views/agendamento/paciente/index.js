@@ -54,7 +54,6 @@ function exibirAgendamentos_Load() {
     var userController = new UserController();
 
     var listAgendamentos = agendamentoController.findByPacienteId(sessionStorage.getItem('user-logged'));
-    console.log(listAgendamentos);
     listAgendamentos.forEach(element => {
         console.log(userController.findById(element.medico_id))
         var agendamento = `<div class="agendamento">`;
