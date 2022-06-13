@@ -8,6 +8,7 @@ $(document).ready(() => {
     componenteSidebar_Load();
     $(document).on('click', '#sidebarCollapse', componenteSidebar_Click);
     $(document).on('click', '.redirect-custom', componentMenu_Click);
+    $(document).on('click', '.dropdown-logout', componentLogout_Click);
 });
 
 /*
@@ -91,4 +92,14 @@ function usuarioLogadoParameters_Load() {
     var user = controller.findById(idUserLogged);
 
     $("#user-name").text(user.nome);
+}
+
+/*
+
+*/
+function componentLogout_Click() {
+    sessionStorage.removeItem('user-logged');
+    window.location.href = window.location.href.includes("paciente") || window.location.href.includes("medico") ?
+        "../../../" :
+        "../../";
 }
