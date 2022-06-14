@@ -3,8 +3,8 @@
     background-color: #d2edfc;
 }
 textarea {
-    border-radius: 15px;
-    min-height: 250px;
+    border-radius: 10px;
+    min-height: 400px;
     resize: none;
     
 }
@@ -31,7 +31,7 @@ textarea {
     background-color: #e1eafd;
     text-align: center;
     margin: auto;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #videoFrame {
     min-width: 250px;
@@ -48,14 +48,15 @@ textarea {
     min-height: 250px;
     max-height: 500px;
 }
-.btn {
-    width: 50%;
+.btn1 {
+    min-width: 120px;
+    max-width: 1800px;
 }
 .col-md {
     min-width: 400px;
 }
-.g-2 {
+.g2 {
     background-color: #d2edfc;
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
