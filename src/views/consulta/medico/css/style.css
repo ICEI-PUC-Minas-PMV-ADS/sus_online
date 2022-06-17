@@ -3,6 +3,7 @@
     background-color: #d2edfc;
 }
 textarea {
+    background-color: #fffbfb;
     border-radius: 10px;
     min-height: 400px;
     resize: none;

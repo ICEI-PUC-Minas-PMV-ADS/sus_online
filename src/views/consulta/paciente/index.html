@@ -28,29 +28,41 @@
                         <h2 class="h2-custom">Consultas Online</h2>
                         <div class="line m-auto mb-3"></div>
                     </span>
-
-                    <div class="appointments">
-                        <div class="name">
-                            <span>DR Luiz Francisco</span>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-5">
+                                <div class="appointments">
+                                    <div class="name">
+                                        <span>DR Luiz Francisco</span>
+                                    </div>
+                                    <div class="date">
+                                        <span class="material-icons">date_range</span>
+                                        <span>22/05/2022</span>
+                                    </div>
+                                    <div class="hour">
+                                        <span class="material-icons">watch_later</span>
+                                        <span>10:00</span>
+                                    </div>
+                                    
+                                        <input type="button" class="button" value="INICIAR CONSULTA" onclick="showDiv()"/>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="row p-1">
+                                    <div class="col">
+                                        <div id="videoFrame"  style="display:none;" class="video" >Video</div>
+                                    </div>
+                                </div>
+                                <div class="row p-1">
+                                    <div class="col">
+                                        <input type="button" class="button1" value="Encerrar consulta" onclick="hideDiv()"/>
+                                    </div>  
+                                </div>                            
+                            </div>
                         </div>
-                        <div class="date">
-                            <span class="material-icons">date_range</span>
-                            <span>22/05/2022</span>
-                        </div>
-                        <div class="hour">
-                            <span class="material-icons">watch_later</span>
-                            <span>10:00</span>
-                        </div>
-                        
-                            <input type="button" class="button" value="INICIAR CONSULTA" onclick="showDiv()" />
-                        
                     </div>
-                    
-                        <input type="button" class="button1" value="Encerrar consulta" onclick="hideDiv()" />
-                    
-                    <div id="videoFrame"  style="display:none;" class="video" >Video</div>
                 </div>
-
                 <footer class="data-partial mt-auto py-3 text-center footer-custom" id="footer" partial-type="footer"
                     partial-base="false"></footer>
             </div>
