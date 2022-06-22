@@ -31,7 +31,9 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-5">
-                                <div class="appointments">
+                                <div id="agendamento" class="tabela-de-agendamentos" onload="exibirAgendamentos_Load()">
+                                                                    
+                                <!--<div class="appointments">
                                     <div class="name">
                                         <span>DR Luiz Francisco</span>
                                     </div>
@@ -45,13 +47,14 @@
                                     </div>
                                     
                                         <input type="button" class="button" value="INICIAR CONSULTA" onclick="showDiv()"/>
-                                    
+                                -->
                                 </div>
                             </div>
                             <div class="col-lg-7">
                                 <div class="row p-1">
                                     <div class="col">
                                         <div id="videoFrame"  style="display:none;" class="video" >Video</div>
+                                        <div id="videoFrame1"  style="display:block;" class="video1" >Video</div>
                                     </div>
                                 </div>
                                 <div class="row p-1">
@@ -68,7 +71,7 @@
             </div>
     </main>
 </body>
-<script src="/src/views/consulta/paciente/js/button.js" type="text/javascript"></script>
+<script src="/src/views/consulta/paciente/js/index.js" type="module"></script>
 <script src="../../../assets/js/jquery.js" type="text/javascript"></script>
 <script
     src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
