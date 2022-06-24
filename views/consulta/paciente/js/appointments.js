@@ -1,5 +1,5 @@
-import { UserController } from "../../../../../controllers/UserController.js";
-import { AgendamentoController } from "../../../../../controllers/AgendamentoController.js";
+import { UserController } from "../../../../controllers/UserController.js";
+import { AgendamentoController } from "../../../../controllers/AgendamentoController.js";
 
 
 $(document).ready(() => {
