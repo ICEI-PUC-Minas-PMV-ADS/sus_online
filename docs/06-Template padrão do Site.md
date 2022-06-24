@@ -97,7 +97,10 @@ Em construção
 
 12. **Tela de consulta - Médico**
 
-Em construção
+Permite que o paciente entre em consulta com o médico.
+
+![alt text](/docs/img/template/paciente-consulta.png)
+##### *Figura 15 - tela de consulta médica*
 
 13. **Tela de exames - Médico**
 
