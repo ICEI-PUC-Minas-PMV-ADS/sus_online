@@ -1,0 +1,24 @@
+message: Please cite this software using these metadata.
+title:
+authors:
+  - family-names: Vicente do Vale Melo
+    given-names: José
+  - family-names: Franco Alavarque Escobedo
+    given-names: Karen
+  - family-names: Carlos Gil de Souza
+    given-names: Luiz
+  - family-names: Vitor Rodrigues da Silva
+    given-names: Pedro
+  - family-names: Daniela Figueiredo Barbosa
+    given-names: Ursula
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Carvalho Monteiro Ferreira
+    given-names: Daniela 
+keywords:
+  - SUS
+  - Saúde 
+  - Atendimento online
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/sus_online
+version: 1.0.0
+date-released: 2022-07-01
